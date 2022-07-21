@@ -66,18 +66,18 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()){
             case R.id.btn_that_dog:
                 if (isDog) {
-                    Toast.makeText(this, "верно", Toast.LENGTH_SHORT).show();
-                }else Toast.makeText(this, "не верно", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "верно", Toast.LENGTH_SHORT).show();
+                }else Toast.makeText(getApplicationContext(), "не верно", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_that_cat:
                 if (isCat) {
-                    Toast.makeText(this, "верно", Toast.LENGTH_SHORT).show();
-                }else Toast.makeText(this, "не верно", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "верно", Toast.LENGTH_SHORT).show();
+                }else Toast.makeText(getApplicationContext(), "не верно", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_that_giraffe:
                 if (isGiraffe) {
-                    Toast.makeText(this, "верно", Toast.LENGTH_SHORT).show();
-                }else Toast.makeText(this, "не верно", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "верно", Toast.LENGTH_SHORT).show();
+                }else Toast.makeText(getApplicationContext(), "не верно", Toast.LENGTH_SHORT).show();
                 break;
         }
     }
